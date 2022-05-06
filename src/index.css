@@ -2,19 +2,15 @@
   font-family: "Future-Light";
   src: local("Future-Light"), url("./fonts/Futura-CondensedLight.otf"), format("otf");
 }
-@font-face {
-  font-family: "Future-Bold";
-  src: local("Future-Bold"), url("./fonts/Futura-Bold.ttf"), format("ttf");
-}
 
 body {
   margin: 0;
-  font-family: "Future-Light", "Future-Bold"!important;
+  font-family: "Future-Light"!important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: white!important;
 }
 
 code {
-  font-family: "Future-Light", "Future-Bold";
+  font-family: "Future-Light";
 }

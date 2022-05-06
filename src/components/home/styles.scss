@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Future-Bold";
+  src: local("Future-Bold"), url("../../fonts/Futura-Bold.ttf"), format("ttf");
+}
+
+.home {
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-text {
+  font-family: "Future-Bold"!important;
+  font-size: 10vh;
+}
+
+.home-icon {
+  width: 15vh;
+}
