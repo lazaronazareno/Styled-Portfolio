@@ -1,11 +1,16 @@
-import React from "react"
+import React from 'react';
 import './styles.scss';
 import linkedin from '../../assets/linkedinOR.svg'
 import github from '../../assets/githubOR.svg'
 
-export default function Home () {
+export default function Home ({...scrollRef}) {
+  console.log(scrollRef.current)
+  const myRef:any = document.getElementById('horizontal')
+  console.log(myRef)
+  const scrollToRef = () => window.scrollTo({top: myRef.offsetTop, behavior:"smooth" });
+
   return (
-    <div className='container-fluid home d-flex flex-column bg-black'>
+    <div className='container-fluid home d-flex flex-column bg-black' onWheel={scrollToRef}>
       <h1 className="home-text">LAZARO NAZARENO VEGA SANCHEZ</h1>
       <h1 className="home-text">FRONT END DEVELOPER</h1>
       <div>
