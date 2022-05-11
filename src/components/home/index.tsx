@@ -3,14 +3,9 @@ import './styles.scss';
 import linkedin from '../../assets/linkedinOR.svg'
 import github from '../../assets/githubOR.svg'
 
-export default function Home ({...scrollRef}) {
-  console.log(scrollRef.current)
-  const myRef:any = document.getElementById('horizontal')
-  console.log(myRef)
-  const scrollToRef = () => window.scrollTo({top: myRef.offsetTop, behavior:"smooth" });
-
+const Home = () => {
   return (
-    <div className='container-fluid home d-flex flex-column bg-black' onWheel={scrollToRef}>
+    <div className='container-fluid home bg-black'>
       <h1 className="home-text">LAZARO NAZARENO VEGA SANCHEZ</h1>
       <h1 className="home-text">FRONT END DEVELOPER</h1>
       <div>
@@ -20,3 +15,5 @@ export default function Home ({...scrollRef}) {
     </div>
   )
 }
+
+export default Home
