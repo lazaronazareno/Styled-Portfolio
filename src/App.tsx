@@ -10,6 +10,10 @@ function App() {
       <Header />
       <Home />
       <Horizontal />
+      <Home />
+      <Home />
+      <Home />
+      <Home />
     </div>
   );
 }
