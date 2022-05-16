@@ -10,9 +10,7 @@ function App() {
       <Header />
       <Home />
       <Horizontal />
-      <Home />
-      <Home />
-      <Home />
+      <div className='spacer'/>
       <Home />
     </div>
   );
