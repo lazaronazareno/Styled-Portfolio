@@ -36,9 +36,23 @@
   font-size: 15vh;
   font-variant-caps: small-caps;
   transform: translate(5vh, -5vh);
+  border-bottom: 2px solid #ff7700;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  width: 130%;
 }
 
 .work-use, .work-stack {
   text-align: initial;
   padding-bottom: 5vh;
+}
+
+.btn-orange {
+  color: #000;
+  background-color: #ff7700!important;
+  border-color: #ff7700!important;
+  margin: 1vh;
+
+  &:hover {
+    background-color: #ff9900!important;
+  }
 }

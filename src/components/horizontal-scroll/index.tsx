@@ -3,6 +3,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import './styles.scss';
 import Works from '../works';
+import Info from '../info';
 
 /* function useArrayRef() {
   const refs: any = useRef([]);
@@ -65,7 +66,7 @@ export default function Horizontal () {
     },
     {
       id: 4,
-      text: "KanoKano App",
+      text: "KanoKanoApp",
       img:
         "https://i.ibb.co/DwkgjYj/React-App-Google-Chrome-2022-03-23-17-13-22-Trim-1.gif",
       use: "PERSONAL",
@@ -76,7 +77,7 @@ export default function Horizontal () {
     },
     {
       id: 5,
-      text: "Pokedex App",
+      text: "PokedexApp",
       img:
         "https://i.ibb.co/sqW5JCM/Pokedex-App-Google-Chrome-2022-03-23-17-34-00-Trim.gif",
       use: "PERSONAL",
@@ -150,6 +151,7 @@ export default function Horizontal () {
       <div className='horizontal bg-black' ref={ref} id='horizontal'>
         <div className="pin-wrap" ref={pinRef}>
           <div className="animation-wrap to-right" ref={animationRef}>
+            <Info />
             {panelData.map((panel, index) => (
               <Works
                 key={panel.id}

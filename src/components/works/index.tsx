@@ -14,10 +14,11 @@ const Works = forwardRef(({ panel }: Panel, ref: React.ForwardedRef<any>) => {
       <div>
         <img className="works-img" src={panel.img} alt="" />
         <div>
-          <a target="_blank" rel="noopener noreferrer" className="btn btn-dark btn-sm w-25 fs-4 align-self-center" href={panel.link1}>Ver</a>
-          <a target="_blank" rel="noopener noreferrer" className="btn btn-dark btn-sm w-25 fs-4 align-self-center" href={panel.link2}>Github</a>
+          <a target="_blank" rel="noopener noreferrer" className="btn btn-orange btn-sm w-25 fs-4 align-self-center" href={panel.link1}>Ver</a>
+          <a target="_blank" rel="noopener noreferrer" className="btn btn-orange btn-sm w-25 fs-4 align-self-center" href={panel.link2}>Github</a>
         </div>
       </div>
+      <div className="works-spacer"/>
     </div>
   );
 });

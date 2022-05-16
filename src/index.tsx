@@ -5,6 +5,8 @@ import './fonts/Futura-Bold.ttf'
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import MouseContextProvider from "./libs/mouseContext";
+
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js'; 
@@ -14,7 +16,9 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <MouseContextProvider>
+      <App />
+    </MouseContextProvider>
   </React.StrictMode>
 );
 
