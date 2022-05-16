@@ -141,7 +141,7 @@ export default function Horizontal () {
             invalidateOnRefresh: true,
             //anticipatePin: 1,
             scrub: true,
-            markers: true
+            // markers: true
           }
         }
       );

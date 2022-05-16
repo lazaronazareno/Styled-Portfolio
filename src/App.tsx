@@ -1,6 +1,8 @@
 import React, { useContext } from 'react';
 import './App.css';
+import Contact from './components/contact';
 import DotRing from './components/customMouse';
+import Footer from './components/footer';
 import Header from './components/header';
 import Home from './components/home';
 import Horizontal from './components/horizontal-scroll';
@@ -15,7 +17,8 @@ function App() {
       <Home />
       <Horizontal />
       <div className='spacer'/>
-      <Home />
+      <Contact />
+      <Footer />
     </div>
   );
 }

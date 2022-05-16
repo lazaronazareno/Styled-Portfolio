@@ -1,11 +1,10 @@
 .header{
   max-height: 10vh;
-  background: linear-gradient(to top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
   z-index: 10;
 }
 
 .header-img {
-  max-height: 10vh;
+  max-height: 9vh;
 }
 
 .header-text {
@@ -13,6 +12,7 @@
   text-decoration: none;
   padding: 0 5px;
   position: relative;
+  color: white;
   cursor: pointer;
   &:hover {
     color: #FF7700;
