@@ -4,6 +4,7 @@ import useMousePosition from "../../libs/useMousePosition"
 import { MouseContext } from "../../libs/mouseContext";
 
 const DotRing = () => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const { cursorType, cursorChangeHandler } = useContext(MouseContext);
   const { x, y } = useMousePosition();
   return (

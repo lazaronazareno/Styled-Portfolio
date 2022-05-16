@@ -9,8 +9,12 @@ const Home = () => {
       <h1 className="home-text">LAZARO NAZARENO VEGA SANCHEZ</h1>
       <h1 className="home-text">FRONT END DEVELOPER</h1>
       <div>
-        <img className="home-icon" src={linkedin} alt="Linkedin" />
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/lazaronazareno">
         <img className="home-icon" src={github} alt="Github" />
+      </a>
+      <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/lazaro-vega-sanchez">
+        <img className="home-icon" src={linkedin} alt="Linkedin" />
+      </a>
       </div>
     </div>
   )
