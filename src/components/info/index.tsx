@@ -14,6 +14,7 @@ const Info = forwardRef((props, ref: React.ForwardedRef<any>) => {
         <img className="info-img" alt="nodejs" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" />
         <img className="info-img" alt="mysql" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
         <img className="info-img" alt="angular" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg" />
+        <img className="info-img" alt="typescript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" />
       </div>
       <div className="works-spacer"/>
     </div>

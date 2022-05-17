@@ -18,6 +18,11 @@
   font-size: 10vh;
 }
 
+.home-text:first-of-type {
+  border-bottom: 2px solid #ff7700;
+  width: 70%;
+}
+
 .home-icon {
   width: 15vh;
   cursor: pointer;

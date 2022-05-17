@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState } from 'react';
 import './styles.scss';
 import { data } from '../../data/data'
 
@@ -11,7 +11,6 @@ const AltWorks = () => {
   const onMouse = (e: any) => {
     setY(e.clientY - e.target.offsetTop)
     setX(e.clientX - e.target.offsetLeft)
-    console.log(e)
   }
 
   return (

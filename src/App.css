@@ -5,9 +5,10 @@
 .App {
   text-align: center;
   overflow-x: hidden;
+  background-color: #1B1A17;
 }
 
 .spacer {
   height: 1207.5vh;
-  background-color: brown;
+  background-color: #1B1A17;
 }
