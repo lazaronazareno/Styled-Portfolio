@@ -27,3 +27,25 @@
   width: 15vh;
   cursor: pointer;
 }
+
+@media (max-width: 800px) {
+  .home-text {
+    font-size: 7vh;
+  }
+}
+
+@media (max-width: 570px) {
+  .home-text {
+    font-size: 5vh;
+  }
+}
+
+@media (max-width: 400px) {
+  .home-text {
+    font-size: 3vh;
+  }
+
+  .home-icon {
+    width: 10vh;
+  }
+}

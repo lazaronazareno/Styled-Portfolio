@@ -4,6 +4,7 @@ import { data } from '../../data/data'
 
 
 const AltWorks = () => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [panelData, setPanelData] = useState(() => data);
   const [x, setX]: any = useState()
   const [y, setY]: any = useState()
@@ -16,7 +17,7 @@ const AltWorks = () => {
   return (
     <div className='container-fluid altWorks'>
       { panelData.map((data, index) => (
-        <div className="hover_img" onMouseMove={onMouse}>
+        <div className="hover_img" key={index} onMouseMove={onMouse}>
           <h1>
             {data.text}
             <span>

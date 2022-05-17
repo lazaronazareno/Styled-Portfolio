@@ -41,3 +41,46 @@
   text-underline-position: under;
   font-size: 5vh;
 }
+
+@media (max-width: 980px) {
+  .info-images {
+    width: 80%;
+  }
+}
+
+@media (max-width: 770px) {
+  .info-images {
+    width: 100%;
+  }
+
+  .info-title {
+    font-size: 4vh;
+  }
+}
+
+@media (max-width: 650px) {
+  .info-img {
+    width: 10vh;
+  }
+
+  .info-title {
+    font-size: 4vh;
+  }
+}
+
+@media (max-width: 530px) {
+  .info-img {
+    width: 8vh;
+  }
+}
+
+@media (max-width: 470px) {
+  .info-title {
+    font-size: 3vh;
+  }
+
+  .info-img {
+    width: 6vh;
+    margin: 1vh;
+  }
+}

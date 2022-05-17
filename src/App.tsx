@@ -23,7 +23,6 @@ function App() {
           <Route path="/" element={[
             <Home />,
             <Horizontal />,
-            <div className='spacer'/>,
             <Contact />,
           ]}>
           </Route>

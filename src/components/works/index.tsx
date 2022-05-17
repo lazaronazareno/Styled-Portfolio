@@ -18,7 +18,7 @@ const Works = forwardRef(({ panel }: Panel, ref: React.ForwardedRef<any>) => {
           <a target="_blank" rel="noopener noreferrer" className="btn btn-orange btn-sm w-25 fs-4 align-self-center" href={panel.link2}>Github</a>
         </div>
       </div>
-      <div className="works-spacer"/>
+      <div className="works-spacer" style={{ display: panel.text === 'PokedexApp' ? 'none' : '' }}/>
     </div>
   );
 });
