@@ -57,6 +57,16 @@
   }
 }
 
+.works-spacer {
+  position: absolute;
+  transform: rotate(-90deg);
+  width: 100vh;
+  height: 3vh;
+  right: -48vh;
+  color: black;
+  background: url("data:image/svg+xml;utf8,<svg style=\"transform:rotate%280deg%29\" xmlns=\"http://www.w3.org/2000/svg\"  viewBox=\"0 0 59 64\"><text x=\"0\" y=\"15\" fill=\"%23000\">Proyectos</text></svg>") 0 0/11vh 9vh, #ff7700;
+}
+
 @media (max-width: 1450px) {
   .work-title {
     width: 160%;
@@ -85,7 +95,7 @@
 
   .work-title {
     font-size: 12vh;
-    transform: translate(0, 0);
+    transform: translate(4vh, 0);
     width: 90%;
   }
 
@@ -125,6 +135,10 @@
 
   .work-use, .work-stack, .work-description {
     font-size: 2.5vh;
+  }
+
+  .works-spacer {
+    display: none;
   }
 }
 

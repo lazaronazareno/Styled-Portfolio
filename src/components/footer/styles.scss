@@ -1,3 +1,49 @@
 .footer {
   background-color: #1B1A17;
 }
+
+.footer-text {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 5px;
+  position: relative;
+  color: white;
+  font-size: 3.5vh;
+  cursor: pointer;
+  &:hover {
+    color: #FF7700;
+    transition: all 0.3s ease-out;
+    }
+  
+  &:hover:after {
+    width: 100%;
+  }
+
+    &:after {
+      position: absolute;
+      top: 80%;
+      left: 50%;
+      background-color: #FF7700;
+      content: '';
+      display: block;
+      height: 1px;
+      transform: translate(-50%, -50%);
+      transition: width 0.3s ease-out;
+      width: 0;
+      text-decoration: inherit;
+      box-sizing: inherit;
+      background-repeat: inherit;
+    }
+}
+
+@media (max-width: 850px) {
+  .footer-text {
+    font-size: 2.5vh!important;
+  }
+}
+
+@media (max-width: 650px) {
+  .footer-text {
+    font-size: 2vh!important;
+  }
+}

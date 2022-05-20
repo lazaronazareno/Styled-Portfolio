@@ -35,3 +35,23 @@
     background-position: 200px;
   }
 }
+
+@media (max-width: 1000px) {
+  .contact-title {
+    font-size: 10vh;
+  }
+
+  .contact-text {
+    font-size: 3.5vh;
+  }
+}
+
+@media (max-width: 650px) {
+  .contact-title {
+    font-size: 7vh;
+  }
+
+  .contact-text {
+    font-size: 3vh;
+  }
+}
