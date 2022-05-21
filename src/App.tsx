@@ -10,6 +10,7 @@ import Horizontal from './components/horizontal-scroll';
 import { MouseContext } from './libs/mouseContext'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import About from './components/about';
+import ScrollToTop from './libs/useScrollToTop';
 
 function App() { 
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -19,6 +20,7 @@ function App() {
       <BrowserRouter>
       <DotRing />
       <Header />
+      <ScrollToTop />
         <Routes>
           <Route path="/" element={[
             <Home />,
