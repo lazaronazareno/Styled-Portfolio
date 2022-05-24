@@ -23,12 +23,14 @@ const AltWorks = () => {
       <div className='container-fluid altWorks'>
         { panelData.map((data, index) => (
           <div className="hover_img" key={index} onMouseMove={onMouse}>
-            <h1>
-              {data.text}
-              <span>
-                <img className='altworks-img' src={data.img} alt="background" style={{ transform: `translate(${-80 + x}px, ${-250 + y}px)` }} />
-              </span>
-            </h1>
+            <a target="_blank" rel="noopener noreferrer" href={data.link1}>
+              <h1>
+                {data.text}
+                <span>
+                  <img className='altworks-img' src={data.img} alt="background" style={{ transform: `translate(${-80 + x}px, ${-250 + y}px)` }} />
+                </span>
+              </h1>
+            </a>
           </div>
         ))}
       </div>

@@ -127,6 +127,8 @@
 
   .work-title {
     width: 100%;
+    font-size: 8vh;
+    transform: translate(0, 0);
   }
 
   .works-img {
@@ -143,10 +145,6 @@
 }
 
 @media (max-width: 650px) {
-  .work-title {
-    font-size: 10vh;
-  }
-
   .works-img {
     width: 90%;
   }
@@ -155,10 +153,6 @@
 @media (max-width: 560px) {
   .section {
     padding-left: 0;
-  }
-
-  .work-title {
-    font-size: 8vh;
   }
 
   .works-img {

@@ -11,7 +11,6 @@ import useWindowSize  from '../../libs/useWindowsSize'
 
 export default function Horizontal () {
   const size = useWindowSize();
-  console.log(size)
 
   gsap.registerPlugin(ScrollTrigger)
   const ref = useRef<HTMLDivElement>(null);
@@ -22,7 +21,6 @@ export default function Horizontal () {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [panelData, setPanelData] = useState(() => data);
   const [width1, setWidth1] = useState(Number);
-  console.log(width1)
 
   useEffect(() => {
     const horizontalSections = gsap.utils.toArray(
