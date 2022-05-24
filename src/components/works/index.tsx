@@ -12,9 +12,11 @@ const Works = forwardRef(({ panel }: Panel, ref: React.ForwardedRef<any>) => {
         <h2 className="work-description">{panel.description}</h2>
       </div>
       <div>
-        <img className="works-img" src={panel.img} alt="" />
+        <img className="works-img" src={panel.img} alt="" loading="lazy" />
         <div>
-          <a target="_blank" rel="noopener noreferrer" className="btn btn-orange btn-sm w-25 fs-4 align-self-center" href={panel.link1}>Ver</a>
+          {panel.text === 'ONG Page' || panel.text === 'MoviesApp' || (
+            <a target="_blank" rel="noopener noreferrer" className="btn btn-orange btn-sm w-25 fs-4 align-self-center" href={panel.link1}>Ver</a>
+          )}
           <a target="_blank" rel="noopener noreferrer" className="btn btn-orange btn-sm w-25 fs-4 align-self-center" href={panel.link2}>Github</a>
         </div>
       </div>

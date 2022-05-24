@@ -1,6 +1,17 @@
 export const data = [
   {
     id: 0,
+    text: "MoviesApp",
+    img:
+      "https://i.ibb.co/WpkC0wm/moviesapp.webp",
+    use: "CHALLENGE",
+    stack: "React - Bootstrap - TypeScript - NodeJs - MySql - Docker",
+    description: "App dashboard de peliculas, contiene un endpoint para subir un archivo csv con muchas peliculas y subirlo a una base de datos. Se puede agregar una nueva pelicula, modificar una existente, borrar de la base de datos, y buscar por palabra clave.",
+    link1: "https://github.com/lazaronazareno/MoviesApp/tree/master/movie-client",
+    link2: "https://github.com/lazaronazareno/MoviesApp"
+  },
+  {
+    id: 1,
     text: "SuperHeroes",
     img:
       "https://i.ibb.co/b6k7Vrj/Superheroes-Page-Google-Chrome-2022-03-23-16-28-33.gif",
@@ -9,17 +20,6 @@ export const data = [
     description: "Consume SuperheroesAPI, posee un login, su funcion es buscar superheroes y poder armar un team de 6. Las credenciales para iniciar sesion y utilizarla son: email: challenge@alkemy.org y password: react",
     link1: "https://alkemy-react-challenge.web.app/",
     link2: "https://github.com/lazaronazareno/Alkemy-React-Challenge"
-  },
-  {
-    id: 1,
-    text: "Porfolio",
-    img:
-      "https://i.ibb.co/ncsCpGh/Portolio-Lazaro-Vega-Sanchez-Google-Chrome-2022-03-23-15-50-09-Trim.gif",
-    use: "PERSONAL",
-    stack: "React - Bootstrap",
-    description: "First version of my portfolio",
-    link1: "https://lazaro-portfolio.web.app/",
-    link2: "https://github.com/lazaronazareno/my-portfolio"
   },
   {
     id: 2,
@@ -38,10 +38,10 @@ export const data = [
     img:
       "https://i.ibb.co/Bgcx6WQ/ong-1.png",
     use: "WORK",
-    stack: "React - React-Bootstrap - React-Redux - Nodejs - MySql - Docker",
+    stack: "React - React-Bootstrap - React-Redux - NodeJs - MySql - Docker",
     description: "Pagina Aceleracion Alkemy. Cuenta con un login y register, cuando te logeas como administrador podes agregar, eliminar y modificar los elementos de la misma pagina. Tiene integrada la funcion para subir imagenes a amazon web services('S3')",
-    link1: "https://github.com/lazaronazareno/Aceleracion-Alkemy-Frontend",
-    link2: "https://github.com/lazaronazareno/Aceleracion-Alkemy-Backend"
+    link1: "https://github.com/lazaronazareno/Aceleracion-Alkemy-Backend",
+    link2: "https://github.com/lazaronazareno/Aceleracion-Alkemy-Frontend"
   },
   {
     id: 4,
