@@ -1,5 +1,17 @@
 {
   "projects": {
     "default": "styled-portfolio"
+  },
+  "targets": {
+    "styled-portfolio": {
+      "hosting": {
+        "lazaro-portfolio2022": [
+          "lazaro-portfolio2022"
+        ],
+        "styled-portfolio": [
+          "styled-portfolio"
+        ]
+      }
+    }
   }
 }
